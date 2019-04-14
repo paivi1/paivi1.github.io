@@ -2,6 +2,7 @@
 body {
     display: grid;
     justify-content: center;
+    background-color: grey;
 }
 .grid {
     display: grid;
@@ -9,6 +10,8 @@ body {
     width: 1600px;
     height: 900px;
     grid-template-rows: 40% 60%;
+    background-color: white;
+    overflow: hidden;
     
 }
 
@@ -39,7 +42,7 @@ body {
     display: flex;
     /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
     justify-content: space-evenly;
-    background-color: white;
+    background-color: #8A6BB4;
     border: 1px grey solid;
 }
 
