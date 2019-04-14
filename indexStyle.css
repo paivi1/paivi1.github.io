@@ -41,12 +41,13 @@ body {
 
 .navTop {
     display: flex;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
     justify-content: space-evenly;
     background-color: #8A6BB4;
     border: 1px grey solid;
 }
 
-.navTop a {
+.navTop .button{
     background-color: #664395;
     border: none;
     color: white;
@@ -59,7 +60,7 @@ body {
     width: 20%;
 }
 
-.navtop a:hover {
+.navtop .button:hover {
     background-color: #381665;
 }
 
