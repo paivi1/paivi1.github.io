@@ -94,8 +94,7 @@ button:hover {
     background-color: #FFd700;
     font-size: 30px;
     border-radius: 5px;
-
-    position: fixed;
+    position: absolute;
 }
 .subleft p{
     border-bottom: 2px black solid;
