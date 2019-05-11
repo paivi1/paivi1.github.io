@@ -1,0 +1,219 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(225deg, #fd5e53, orange);
+    display: grid;
+    grid-template: 1fr/1fr;
+    font-family: Helvetica, sans-serif;
+    overflow: scroll;
+    align-content: center;
+    justify-content: center;
+}
+h1 {
+    margin:0;
+    padding:0;
+    
+}
+
+.main{
+    border: 6px white solid;
+    border-radius: 15px;
+    margin: 100px;
+    height: fill;
+    width: fill;
+    grid-area: 1/1/2/2;
+    display: inherit;
+    grid-template-rows: 9fr 1fr;
+    padding: 70px 70px 0px 70px;
+}
+
+.top {
+    display: inherit;
+    grid-template-columns: 1fr 3fr;
+    color: white;
+}
+
+.brand{
+    color: white;
+    font-size: 40px;
+}
+
+.brand p{
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.availableOn {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.availableOn button {
+    background-color: #fd5e53;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 7px 40px 7px 40px;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+}
+.availableOn button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.display {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.display img {
+    padding: 0;
+    margin-right: 70px;
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.insta {
+    position: relative;
+    width: 100%;
+    transition: 1.0s;
+    text-align: center;
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.insta img {
+    padding-top:2px;
+    height: 80%;
+    width: auto;
+    position: absolute;
+    left: 25%;
+}
+.insta .foot {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transition: 0.3s;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+    color: white;
+    padding:0;
+    margin: 0;
+    
+}
+
+.footer > *:hover {
+    color: white;
+}
+
+.foot {
+    text-align: center;
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.foot img {
+    
+    height: 20%;
+    width: auto;
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navSide {
+    grid-area: 1 / 1 / 4 / 2;
+    background-color: white;
+    border-right: 8px black solid;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+}
+
+
+.navSide .brand{
+    display: inherit;
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+
+
+.navFooter {
+    display: inherit;
+    padding-top: 30%;
+    padding-left: 50px;
+    
+}
+
+.navFooter * {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 1px;
+    width: 70%;
+    transition-duration: 0.4s;
+}
+.navFooter > *:hover {
+    background-color: #fd5e53;
+    z-index: 1;
+    padding-left: 5px;
+}
+
+.navFooter img {
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.insta {
+    display: grid;
+    grid-template-columns: 20% 90%;
+    align-content: center;
+}
+
