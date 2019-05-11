@@ -1,0 +1,136 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(225deg, orange, #fd5e53);
+    display: grid;
+    grid-template: 1fr/1fr;
+    font-family: Helvetica, sans-serif;
+    overflow: scroll;
+    align-content: center;
+    justify-content: center;
+}
+h1{
+    margin:0;
+    padding:0;
+}
+h2 {
+    margin:0;
+    padding:0;
+
+}
+
+.main{
+    border: 1vw white solid;
+    border-radius: 15px;
+    margin: 3vw;
+    grid-area: 1/1/2/2;
+    display: inherit;
+    grid-template-rows: 4fr 4fr 4fr 1fr;
+    padding: auto auto 0 auto;
+}
+
+.top {
+    border-bottom: 2px black solid;
+    display: inherit;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+.brand{
+    color: white;
+    font-size: 5vw;
+}
+
+.brand p{
+    font-size: 3vw;
+    padding: 0;
+    margin: 0;
+}
+
+.availableOn {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10vw;
+}
+
+.availableOn button {
+    background-color: #fd5e53;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 1vw 2vw 1vw 2vw;
+
+    margin-top: 2vw;
+    transition-duration: 0.5s;
+}
+.availableOn button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
+.mid{
+    border-bottom: 2px black solid;
+    display: inherit;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+.bot {
+    border-bottom: 2px black solid;
+    display: inherit;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+
+
+
+.display {
+    display: grid;
+    justify-content: center;
+}
+.display img {
+    margin: auto;
+    max-width: 75%;
+}
+
+.displaytext{
+    margin-top: 5vw;
+    color: white;
+    font-size: 5vw;
+}
+
+.displaytext p{
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+    color: white;
+    padding:0;
+    margin: 0;
+}
+
+.footer > *:hover {
+    background-color:lightpink;
+    color: white;
+}
+
+.foot {
+    text-align: center;
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
