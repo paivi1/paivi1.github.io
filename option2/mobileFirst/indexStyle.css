@@ -32,21 +32,21 @@ h2 {
 }
 
 .top {
-    border: 2px blue solid;
     width: fill;
     display: inherit;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     color: white;
+    align-content: center;
+    border-bottom: 2px black solid;
+    margin: 5%;
 }
 .brand{
-    border: 2px purple solid;
     color: white;
-    font-size: 5vw;
-    padding: 5% 0 5% 5%;
+    font-size: 7vw;
 }
 
 .brand p{
-    font-size: 3vw;
+    font-size: 5vw;
     padding: 0;
     margin: 0;
 }
@@ -55,25 +55,15 @@ h2 {
     font-weight: bold;
     font-size: 30px;
     margin-top: 10vw;
+    padding-bottom: 10vw;
+    border-bottom: 2px black solid;
 }
 
-.availableOn button {
-    background-color: #fd5e53;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 4vw;
-    font-weight: bold;
-    padding: 1vw 2vw 1vw 2vw;
+.availableOn img {
+    margin-top: 1vw;
+    width:40vw;
+}
 
-    margin-top: 2vw;
-    transition-duration: 0.5s;
-}
-.availableOn button:hover {
-    background-color: greenyellow;
-    color: black;
-}
 /*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
 .mid{
     border-bottom: 2px black solid;
@@ -92,14 +82,12 @@ h2 {
 
 
 .display {
-    border: 2px brown solid;
-    width: 50vw;
     display: grid;
     justify-content: center;
 }
 .display img {
     margin: auto;
-    max-width: 50%;
+    max-width: 80%;
 }
 
 .displaytext{
