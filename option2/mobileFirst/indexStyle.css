@@ -34,11 +34,10 @@ h2 {
 .top {
     width: fill;
     display: inherit;
-    grid-template-rows: 1fr 2fr;
     color: white;
     align-content: center;
     border-bottom: 2px black solid;
-    margin: 5%;
+    padding: 5%;
 }
 .brand{
     color: white;
@@ -55,8 +54,6 @@ h2 {
     font-weight: bold;
     font-size: 30px;
     margin-top: 10vw;
-    padding-bottom: 10vw;
-    border-bottom: 2px black solid;
 }
 
 .availableOn img {
@@ -70,12 +67,16 @@ h2 {
     display: inherit;
     grid-template-columns: 1fr 1fr;
     color: white;
+    align-content: center;
+    padding: 5%;
 }
 .bot {
     border-bottom: 2px black solid;
     display: inherit;
     grid-template-columns: 1fr 1fr;
     color: white;
+    align-content: center;
+    padding: 5%;
 }
 
 
@@ -91,7 +92,6 @@ h2 {
 }
 
 .displaytext{
-    margin-top: 5vw;
     color: white;
     font-size: 5vw;
 }
