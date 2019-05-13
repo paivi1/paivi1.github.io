@@ -19,7 +19,6 @@ h1{
 h2 {
     margin:0;
     padding:0;
-
 }
 
 .main{
@@ -29,18 +28,21 @@ h2 {
     grid-area: 1/1/2/2;
     display: inherit;
     grid-template-rows: 4fr 4fr 4fr 1fr;
-    padding: auto auto 0 auto;
+    overflow: scroll;
 }
 
 .top {
-    border-bottom: 2px black solid;
+    border: 2px blue solid;
+    width: fill;
     display: inherit;
     grid-template-columns: 1fr 1fr;
     color: white;
 }
 .brand{
+    border: 2px purple solid;
     color: white;
     font-size: 5vw;
+    padding: 5% 0 5% 5%;
 }
 
 .brand p{
@@ -90,12 +92,14 @@ h2 {
 
 
 .display {
+    border: 2px brown solid;
+    width: 50vw;
     display: grid;
     justify-content: center;
 }
 .display img {
     margin: auto;
-    max-width: 75%;
+    max-width: 50%;
 }
 
 .displaytext{
