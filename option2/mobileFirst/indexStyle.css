@@ -1,4 +1,3 @@
-
 body {
     padding: 0;
     margin: 0;
@@ -12,7 +11,7 @@ body {
     justify-content: center;
 }
 h1{
-    color: black;
+    color: white;
     margin:0;
     padding:0;
 }
@@ -31,15 +30,15 @@ h2 {
 .invite {
     width: fill;
     display: grid;
-    color: white;
+    color: black;
     align-content: center;
     border-bottom: 2px black solid;
     padding: 5%;
-    background-color: red;
+    background-color: darkgray;
 }
 .brand{
     margin-top: 2vw;
-    color: white;
+    color: black;
     font-size: 7vw;
 }
 
@@ -55,6 +54,9 @@ h2 {
     font-weight: bold;
     margin-top: 10vw;
 }
+.availableOn p{
+    margin-top: 0;
+}
 .availableOn button {
     background: none;
     border: 0.5vw white solid;
@@ -64,7 +66,6 @@ h2 {
     font-size: 5vw;
     font-weight: bold;
     padding: 2vw 1vw 2vw 1vw ;
-    margin-top: 2vw;
     transition-duration: 0.3s;
 }
 .availableOn button:hover {
@@ -81,7 +82,7 @@ h2 {
     color: white;
     align-content: center;
     padding: 5%;
-    background-color: black;
+    background-color: red;
 }
 .second {
     border-bottom: 2px black solid;
@@ -110,6 +111,7 @@ h2 {
 .displaytext p{
     font-size: 3vw;
     margin-top: 2vw;
+    font-weight: bold;
 }
 
 .footer {
@@ -123,7 +125,7 @@ h2 {
 }
 
 .footer > *:hover {
-    background-color:lightpink;
+    background-color:red;
     color: white;
 }
 
@@ -155,7 +157,7 @@ h2 {
         align-content: center;
         border-bottom: 2px black solid;
         padding: 0 0 0 1vw;
-        background-color: red;
+        background-color: darkgray;
     }
     .brand{
         margin-top: 0vw;
@@ -177,6 +179,9 @@ h2 {
         font-weight: bold;
         margin: 0;
         text-align:right;
+    }
+    .availableOn p{
+        margin-top: 1vw;
     }
     .availableOn button {
         background: none;
@@ -206,7 +211,7 @@ h2 {
         grid-template-columns: 1fr 1fr;
         color: white;
         align-content: center;
-        background-color: black;
+        background-color: red;
     }
     .second {
         width: 45vw;
@@ -242,7 +247,7 @@ h2 {
     .displaytext p{
         font-size: 2vw;
         margin-top: 2vw;
-        font-weight: 
+        font-weight: bold;
     }
     
     .footer {
