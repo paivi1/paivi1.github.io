@@ -3,7 +3,7 @@
   }
 
 body {
-    background: #3e4649;
+    background: white;
     color: #f7f7f7;
     font-family: Helvetica, sans-serif;
 }
@@ -35,23 +35,26 @@ p {
     margin-bottom: 5px;
 }
 .btn-primary:hover {
-    color: orangered;
+    color: red;
     background-color: transparent;
-    border-color: black;
+    border-color: red;
 }
 
 .navbar-default {
     border: 0;
 }
+.navbar-brand{
+    font-size: 30px;
+}
 .navbar-default .navbar-brand {
-    color: black;
+    color:red;
 }
 .navbar-default .navbar-nav li a {
     color: black;
     font-size: 16px;
 }
 .navbar-default .navbar-nav li a:hover {
-    background-color: rgba(255,123,0,0.5);
+    background-color: rgba(255,0,0,0.5);
 }
 
 .dropdown-menu {
@@ -63,12 +66,15 @@ p {
     padding: 10px;
 }
 .navbar-default .navbar-nav .dropdown-menu li a:hover {
-    background: rgba(255,123,0,0.5);
+    background: rgba(255,0,0,0.5);
 }
 .call-to-action {
+    color: red;
+    margin-top: 50px;
     text-align: center;
 }
 .call-to-action p {
+    color:black;
     margin-bottom: 30px;
     font-family: sans-serif;
 }
