@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+    
+  }
+body {
+    background: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1,
+h2 {
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    color: #cdcdcd;
+}
+.sticky-top{
+    position: sticky;
+    top:0;
+    z-index: 2;
+}
+
+.jumbotron {
+    background-position: center;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    padding-top:10em;
+    opacity: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,256,0.5)), url("../images/SoftEngSC2.PNG");
+
+}
+.jumbotron p {
+    color: black;
+    font-size: 20px;
+}
+
+.btn-primary {
+    color: rgb(46, 211, 170);
+    background-color: transparent;
+    
+    border: solid rgb(46, 211, 170) 1pt;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+.btn-primary:hover {
+    color: black;
+    background-color: rgba(46, 211, 170, 1);
+    border-color: black;
+}
+
+.navbar {
+    border-bottom: solid rgba(46, 211, 170, 1) 3pt;
+    background-color: rgb(17, 38, 39);
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    color:white;
+}
+.navbar .navbar-brand:hover {
+    color:white;
+}
+.navbar .navbar-nav li a {
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.navbar .navbar-nav li a:hover {
+    background-color: rgba(46, 211, 170, 1);
+}
+
+.dropdown-menu {
+    background: rgb(17, 38, 39);
+    border-radius: 0;
+    border: 0;
+}
+.dropdown-menu li a {
+    padding: 10px;
+}
+.navbar .navbar-nav .dropdown-menu li a:hover {
+    background: rgb(46, 211, 170);
+}
+.aboutRow{
+    justify-content: space-around;
+    /*border: solid rgb(46, 211, 170) 1pt;*/
+}
+#showcase {
+    height:30vh;
+}
+.description{
+    font-size: 18px;
+    color: black;
+}
+
+
+
+.streams h3{
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom:0;
+    border-bottom: 1pt black solid;
+}
+.streams p {
+    width:100%;
+    color:black;
+    margin-bottom: 30px;
+    text-align: left;
+    
+}
+.streams a{
+    color: rgb(46, 112, 211);
+}
+
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1em;
+    transition:0.5s;
+    border: solid white 1pt;
+    border-radius: 10px;
+    height:20vh;
+}
+.row > [class*='col-'] {
+      
+    display: flex;
+    flex-direction: column;
+    padding:0;
+
+}
+.row p{
+    margin:0;
+    padding:1em;
+    padding-bottom: 0;
+}
+.row li{
+    margin-left:2em;
+    margin-right:2em;
+    background-color: transparent;
+    border: solid white 1pt;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.row:hover{
+
+    border: solid rgb(46, 211, 170) 1pt;
+    border-radius: 10px;
+    transform: scale(1.1);
+    
+}
+.glyphicon-large {
+    font-size: 100px;
+}
+
+#invite{
+    padding-top: 15vh;
+    color:white;
+    border: solid rgb(46, 211, 170) 1pt;
+    border-radius: 10px;
+    height:50vh;
+}
+#highlight{
+    color:rgb(46, 211, 170);
+}
+#notify{
+    color:rgb(223, 68, 114);
+}
+#about{
+    padding-top: 5em;
+    height: 100vh;
+}
+#skills{
+    height:70vh;
+    font-size: 18px;
+    color:black;
+}
+#listTitle{
+    border-bottom: 2pt solid black;
+}
+#projects{
+    height: 100vh;
+    background-color: rgb(227, 229, 240);
+}
+#contact{
+    padding-top: 5em;
+    height: 97vh;
+    background-color: white;
+}
+.filler{
+    transition: 0.6s;
+    padding-bottom: 2pt;
+    height:20vh;
+}
+.contactRow, .contactRow img{
+    height: 70vh;
+}
+footer{
+    justify-content: center;
+    color:white;
+    background-color:rgb(17, 38, 39);
+    height: 3vh;
+}
+
