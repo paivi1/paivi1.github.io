@@ -87,11 +87,9 @@ p {
     justify-content: space-around;
     /*border: solid rgb(46, 211, 170) 1pt;*/
 }
-#showcase {
-    height:30vh;
-}
+
 .description{
-    font-size: 18px;
+    font-size: 2vh;
     color: black;
 }
 
@@ -127,6 +125,7 @@ p {
     border: solid white 1pt;
     border-radius: 10px;
     height:20vh;
+    
 }
 .row > [class*='col-'] {
       
@@ -139,6 +138,7 @@ p {
     margin:0;
     padding:1em;
     padding-bottom: 0;
+    font-size: 1.5vh;
 }
 .row li{
     margin-left:2em;
@@ -147,6 +147,7 @@ p {
     border: solid white 1pt;
     font-size: 10pt;
     font-weight: bold;
+    font-size: 1.5vh;
 }
 .row:hover{
 
@@ -160,7 +161,7 @@ p {
 }
 
 #invite{
-    padding-top: 15vh;
+    padding-top: 10vh;
     color:white;
     border: solid rgb(46, 211, 170) 1pt;
     border-radius: 10px;
@@ -172,20 +173,24 @@ p {
 #notify{
     color:rgb(223, 68, 114);
 }
+#showcase {
+    height:20vh;
+}
 #about{
     padding-top: 5em;
     height: 100vh;
 }
 #skills{
+    margin: 0;
     height:70vh;
-    font-size: 18px;
+    font-size: 1.5vh;
     color:black;
 }
 #listTitle{
     border-bottom: 2pt solid black;
 }
 #projects{
-    height: 100vh;
+    height: 110vh;
     background-color: rgb(227, 229, 240);
 }
 #contact{
@@ -199,7 +204,7 @@ p {
     height:20vh;
 }
 .contactRow, .contactRow img{
-    height: 70vh;
+    height: 75vh;
 }
 footer{
     justify-content: center;
