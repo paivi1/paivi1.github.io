@@ -1,3 +1,8 @@
+
+window.onload = function setActive(){
+  document.getElementById("Tab1").style.display = "flex";
+}
+
 function openCity(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
