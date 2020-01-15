@@ -26,7 +26,7 @@ p {
     text-align: center;
     margin: 0;
     height: 100vh;
-    padding-top:10em;
+    padding:10vh;
     opacity: 1;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,256,0.5)), url("../images/SoftEngSC2.PNG");
 
@@ -39,7 +39,6 @@ p {
 .btn-primary {
     color: rgb(46, 211, 170);
     background-color: transparent;
-    
     border: solid rgb(46, 211, 170) 1pt;
     margin-bottom: 5px;
     transition: 0.5s;
@@ -90,80 +89,22 @@ p {
     height:30vh;
 }
 .description{
-    font-size: 18px;
+    font-size: 1.1em;
     color: black;
 }
 
-
-
-.streams h3{
-    text-align: center;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-bottom:0;
-    border-bottom: 1pt black solid;
-}
-.streams p {
-    width:100%;
-    color:black;
-    margin-bottom: 30px;
-    text-align: left;
-    
-}
-.streams a{
-    color: rgb(46, 112, 211);
-}
-
-.row {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 1em;
-    transition:0.5s;
-    border: solid white 1pt;
-    border-radius: 10px;
-    height:20vh;
-}
-.row > [class*='col-'] {
-      
-    display: flex;
-    flex-direction: column;
-    padding:0;
-
-}
-.row p{
-    margin:0;
-    padding:1em;
-    padding-bottom: 0;
-}
-.row li{
-    margin-left:2em;
-    margin-right:2em;
-    background-color: transparent;
-    border: solid white 1pt;
-    font-size: 10pt;
-    font-weight: bold;
-}
-.row:hover{
-
-    border: solid rgb(46, 211, 170) 1pt;
-    border-radius: 10px;
-    transform: scale(1.1);
-    
-}
 .glyphicon-large {
     font-size: 100px;
 }
 
 #invite{
     padding-top: 15vh;
+    padding-bottom: 15vh;
     color:white;
     border: solid rgb(46, 211, 170) 1pt;
     border-radius: 10px;
-    height:50vh;
+    height: 100%;
+    vertical-align: middle;
 }
 #highlight{
     color:rgb(46, 211, 170);
@@ -172,13 +113,15 @@ p {
     color:rgb(223, 68, 114);
 }
 #about{
-    padding-top: 5em;
+    padding-top: 3em;
     height: 100vh;
 }
 #skills{
-    height:70vh;
-    font-size: 18px;
+    font-size: 1.7vh;
     color:black;
+}
+#skills li{
+    padding: 1vh;
 }
 #listTitle{
     border-bottom: 2pt solid black;
@@ -186,9 +129,10 @@ p {
 #projects{
     height: 100vh;
     background-color: rgb(227, 229, 240);
+    margin-top: 1vh;
 }
+
 #contact{
-    padding-top: 5em;
     height: 97vh;
     background-color: white;
 }
@@ -199,6 +143,9 @@ p {
 }
 .contactRow, .contactRow img{
     height: 70vh;
+}
+.contactForm{
+    color: rgba(46, 211, 170, 1);
 }
 .faded{
     color: #cdcdcd;
@@ -246,15 +193,28 @@ footer{
     padding: 6px 12px;
     border: 1px solid black;
     border-top: none;
-    height: 80vh;
+    height: 70vh;
     justify-content: center;
 }
 
+
 .project{
     color: black;
-    width: 40vh;
+    width: 33%;
+    height: fill;
     border: 1px solid black;
     margin: 1vh;
     padding: 1vh;
+}
+
+.project p{
+    font-size: 1.5vh;
+}
+.project li {
+    font-size: 2vh;
+}
+
+.project image{
+    width: 50%;
 }
 
