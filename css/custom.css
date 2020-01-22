@@ -150,7 +150,7 @@ p {
     color: #cdcdcd;
 }
 footer{
-    justify-content: center;
+    text-align: center;
     color:white;
     background-color:rgb(17, 38, 39);
     height: 3vh;
@@ -188,7 +188,6 @@ footer{
 /* Style the tab content */
 .tabcontent {
     display: none;
-    overflow: hidden;
     padding: 6px 12px;
     border: 1px solid black;
     border-top: none;
@@ -204,6 +203,13 @@ footer{
     border: 1px solid black;
     margin: 1vh;
     padding: 1vh;
+    transition-duration: 0.5s;
+}
+
+.project:hover{
+    transform: scale(1.1);
+    border: none;
+    background-color: white;
 }
 
 .project p{
