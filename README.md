@@ -14,3 +14,5 @@ Coding more than games and forcing myself to be more professional, I wanted to r
 It's actually still hosted on Github and can be accessed here: https://paivi1.github.io/
 
 <img src="secondPortfolioSiteSnip.PNG">
+
+I've since then moved on to WordPress as I think it's valuable to familiarize myself with modern CMS tools. Few are making site's with vanilla HTML/CSS/JS, so I didn't want to dwell on that too much (or worry about bugs in my portfolio site hurting my first impressions). My current WordPress site can be reached here: https://ryujikomai.dev/
